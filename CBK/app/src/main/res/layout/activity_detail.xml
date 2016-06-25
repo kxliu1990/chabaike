@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.cbk.UI.Activity.DetailActivity">
+<RelativeLayout
+    android:id="@+id/detail_rl"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="#0f0">
+    <TextView
+        android:id="@+id/detail_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是标题"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/detail_tv_keyword"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="这是关键字"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/detail_tv_title"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/detail_tv_time"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_tv_title"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="0000-00-00 00:00:00" />
+
+</RelativeLayout>
+    <ScrollView
+        android:id="@+id/detail_sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/detail_rl">
+        <TextView
+            android:id="@+id/detail_tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"/>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.cbk.UI.Activity.CopyRightActivity">
+    <ImageView
+        android:id="@+id/copy_iv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@mipmap/logo"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/copy_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="买买茶.查百科"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/copy_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version:1.1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/copy_tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="copyright@2010-2013 MailCha.cn"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/copy_tv_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="买卖查 版本所有"
+        android:gravity="center"
+        android:textSize="20dp"/>
+</LinearLayout>
